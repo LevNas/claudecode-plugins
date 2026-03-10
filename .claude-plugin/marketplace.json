@@ -1,16 +1,19 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "levnas-plugins",
+  "description": "LevNas's Claude Code plugin collection",
   "owner": {
     "name": "LevNas"
-  },
-  "metadata": {
-    "description": "LevNas's Claude Code plugin collection"
   },
   "plugins": [
     {
       "name": "ccmemo",
-      "source": "github:LevNas/ccmemo",
-      "description": "Persist knowledge and plans across Claude Code sessions"
+      "description": "Persist knowledge and plans across Claude Code sessions. Provides /record-knowledge and /plan-task skills.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccmemo.git"
+      },
+      "homepage": "https://github.com/LevNas/ccmemo"
     }
   ]
 }
