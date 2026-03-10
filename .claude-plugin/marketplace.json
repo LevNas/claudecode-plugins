@@ -1,0 +1,16 @@
+{
+  "name": "levnas-plugins",
+  "owner": {
+    "name": "LevNas"
+  },
+  "metadata": {
+    "description": "LevNas's Claude Code plugin collection"
+  },
+  "plugins": [
+    {
+      "name": "ccmemo",
+      "source": "github:LevNas/ccmemo",
+      "description": "Persist knowledge and plans across Claude Code sessions"
+    }
+  ]
+}
