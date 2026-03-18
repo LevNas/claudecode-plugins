@@ -11,7 +11,8 @@
       "description": "Persist knowledge and plans across Claude Code sessions. Provides /record-knowledge and /plan-task skills.",
       "source": {
         "source": "url",
-        "url": "https://github.com/LevNas/ccmemo.git"
+        "url": "https://github.com/LevNas/ccmemo.git",
+        "ref": "1f23613"
       },
       "homepage": "https://github.com/LevNas/ccmemo"
     }
