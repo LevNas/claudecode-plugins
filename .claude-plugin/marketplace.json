@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/LevNas/ccmemo.git",
-        "ref": "1f23613"
+        "ref": "main"
       },
       "homepage": "https://github.com/LevNas/ccmemo"
     }
