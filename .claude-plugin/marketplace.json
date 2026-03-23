@@ -22,7 +22,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/LevNas/ccresmon.git",
-        "ref": "6c59353"
+        "ref": "main"
       },
       "homepage": "https://github.com/LevNas/ccresmon"
     }
