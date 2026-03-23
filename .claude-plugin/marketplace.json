@@ -15,6 +15,16 @@
         "ref": "main"
       },
       "homepage": "https://github.com/LevNas/ccmemo"
+    },
+    {
+      "name": "ccresmon",
+      "description": "Claude Code resource monitor hook. Checks memory/CPU before Agent spawn and disk I/O before Bash execution.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccresmon.git",
+        "ref": "6c59353"
+      },
+      "homepage": "https://github.com/LevNas/ccresmon"
     }
   ]
 }
