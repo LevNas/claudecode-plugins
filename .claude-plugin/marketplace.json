@@ -1,0 +1,60 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "levnas-plugins",
+  "description": "LevNas's Claude Code plugin collection",
+  "owner": {
+    "name": "LevNas"
+  },
+  "plugins": [
+    {
+      "name": "ccmemo",
+      "description": "Persist knowledge and plans across Claude Code sessions. Provides /record-knowledge, /plan-task, and /review-knowledge skills with Sonnet subagent delegation.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccmemo.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccmemo"
+    },
+    {
+      "name": "ccresmon",
+      "description": "Claude Code resource monitor hook. Checks memory/CPU before Agent spawn and disk I/O before Bash execution.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccresmon.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccresmon"
+    },
+    {
+      "name": "ccevolve",
+      "description": "Self-improving workflow for Claude Code. Enforces Knowledge-First Flow, detects recurring errors, and manages domain-specific rules.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccevolve.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccevolve"
+    },
+    {
+      "name": "ccorch",
+      "description": "tmux-based orchestration plugin for Claude Code. Provides /ccor skill for multi-level task delegation.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccorch.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccorch"
+    },
+    {
+      "name": "ccaudit",
+      "description": "Record and preserve audit trails of AI-assisted work so humans can verify and attest. Provides automatic Stop-hook flush to a remote trail repository plus /audit-flush for manual inspection.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccaudit.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccaudit"
+    }
+  ]
+}
