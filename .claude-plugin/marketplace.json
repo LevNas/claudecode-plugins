@@ -55,6 +55,16 @@
         "ref": "main"
       },
       "homepage": "https://github.com/LevNas/ccaudit"
+    },
+    {
+      "name": "ccguard",
+      "description": "Deterministic PreToolUse guards for Claude Code. The first guard blocks git commits that carry AI/assistant attribution or session metadata.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccguard.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccguard"
     }
   ]
 }
