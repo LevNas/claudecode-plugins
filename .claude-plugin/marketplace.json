@@ -38,7 +38,7 @@
     },
     {
       "name": "ccorch",
-      "description": "tmux-based orchestration plugin for Claude Code. Provides /ccor skill for multi-level task delegation.",
+      "description": "Orchestration plugin for Claude Code. Subagent-default hybrid: model-routed agent catalog, spawn gate + ledger hooks, /ccor-parallel worktree fan-out, and /ccor tmux panes for cross-repo work.",
       "source": {
         "source": "url",
         "url": "https://github.com/LevNas/ccorch.git",
