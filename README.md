@@ -18,6 +18,7 @@ Claude Code plugin marketplace by LevNas.
 | [ccevolve](https://github.com/LevNas/ccevolve) | Self-improving workflow for Claude Code | `/plugin install ccevolve@levnas-plugins` |
 | [ccorch](https://github.com/LevNas/ccorch) | tmux-based orchestration for multi-level task delegation | `/plugin install ccorch@levnas-plugins` |
 | [ccaudit](https://github.com/LevNas/ccaudit) | Audit-trail capture for AI-assisted work (Stop-hook flush + /audit-flush) | `/plugin install ccaudit@levnas-plugins` |
+| [ccguard](https://github.com/LevNas/ccguard) | Deterministic PreToolUse guards (blocks AI attribution in commits) | `/plugin install ccguard@levnas-plugins` |
 | [ccharness](https://github.com/LevNas/ccharness) | Ship-time harness: scaffold always-on rules, behaviour skills and permissions.deny into a repository; hard-deny floor hook; always-on budget | `/plugin install ccharness@levnas-plugins` |
 
 ## For Plugin Developers
