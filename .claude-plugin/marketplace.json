@@ -65,6 +65,16 @@
         "ref": "main"
       },
       "homepage": "https://github.com/LevNas/ccguard"
+    },
+    {
+      "name": "ccharness",
+      "description": "Ship-time harness for Claude Code. Scaffolds always-on rules, behaviour skills and standard permissions.deny rules into a repository, keeps a small hard-deny floor hook, and measures the always-on context budget.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccharness.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccharness"
     }
   ]
 }
