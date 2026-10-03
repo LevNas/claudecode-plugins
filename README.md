@@ -20,6 +20,7 @@ Claude Code plugin marketplace by LevNas.
 | [ccaudit](https://github.com/LevNas/ccaudit) | Audit-trail capture for AI-assisted work (Stop-hook flush + /audit-flush) | `/plugin install ccaudit@levnas-plugins` |
 | [ccguard](https://github.com/LevNas/ccguard) | Deterministic PreToolUse guards (blocks AI attribution in commits) | `/plugin install ccguard@levnas-plugins` |
 | [ccharness](https://github.com/LevNas/ccharness) | Ship-time harness: scaffold always-on rules, behaviour skills and permissions.deny into a repository; hard-deny floor hook; always-on budget | `/plugin install ccharness@levnas-plugins` |
+| [ccwrite](https://github.com/LevNas/ccwrite) | Japanese writing: norms, channel/recipient router, batch copy-editor, warn-only Markdown rendering checks | `/plugin install ccwrite@levnas-plugins` |
 
 ## For Plugin Developers
 

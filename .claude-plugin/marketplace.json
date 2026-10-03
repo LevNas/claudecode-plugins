@@ -75,6 +75,16 @@
         "ref": "main"
       },
       "homepage": "https://github.com/LevNas/ccharness"
+    },
+    {
+      "name": "ccwrite",
+      "description": "Japanese writing for Claude Code: writing norms, a router that adapts text to the channel and recipient, a batch copy-editor agent, and warn-only checks for Markdown that renders differently from its source (emphasis next to Japanese punctuation, missing line-break spaces).",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccwrite.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccwrite"
     }
   ]
 }
