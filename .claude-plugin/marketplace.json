@@ -38,7 +38,7 @@
     },
     {
       "name": "ccorch",
-      "description": "Orchestration plugin for Claude Code. Subagent-default hybrid: model-routed agent catalog, spawn gate + ledger hooks, /ccor-parallel worktree fan-out, and /ccor tmux panes for cross-repo work.",
+      "description": "tmux pane orchestration for Claude Code. /ccor starts separate sessions in panes with 3-level depth control, for writes to another repository, work under the target repository's own permission and hook layer, and real-time supervised work.",
       "source": {
         "source": "url",
         "url": "https://github.com/LevNas/ccorch.git",
@@ -68,7 +68,7 @@
     },
     {
       "name": "ccharness",
-      "description": "Ship-time harness for Claude Code. Scaffolds always-on rules, behaviour skills and standard permissions.deny rules into a repository, keeps a small hard-deny floor hook, and measures the always-on context budget.",
+      "description": "Harness for Claude Code. Eight leaf agent types with model and effort pinned per type, a tier guard, an agent ledger and parallel-worktree fan-out, plus scaffolded rules and permissions.deny, ship, worktree cleanup, a hard-deny floor hook and an always-on budget check.",
       "source": {
         "source": "url",
         "url": "https://github.com/LevNas/ccharness.git",
