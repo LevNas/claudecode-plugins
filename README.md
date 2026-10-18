@@ -21,6 +21,7 @@ Claude Code plugin marketplace by LevNas.
 | [ccguard](https://github.com/LevNas/ccguard) | Deterministic PreToolUse guards (blocks AI attribution in commits) | `/plugin install ccguard@levnas-plugins` |
 | [ccharness](https://github.com/LevNas/ccharness) | Harness: leaf agent catalog, parallel worktrees, scaffold, ship, worktree cleanup, hard-deny floor hook | `/plugin install ccharness@levnas-plugins` |
 | [ccwrite](https://github.com/LevNas/ccwrite) | Japanese writing: norms, channel/recipient router, batch copy-editor, warn-only Markdown rendering checks | `/plugin install ccwrite@levnas-plugins` |
+| [ccreview](https://github.com/LevNas/ccreview) | Merge-time review gate: perspective reviewers, command gates, bounded auto-fix loop | `/plugin install ccreview@levnas-plugins` |
 
 ## For Plugin Developers
 

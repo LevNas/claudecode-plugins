@@ -85,6 +85,16 @@
         "ref": "main"
       },
       "homepage": "https://github.com/LevNas/ccwrite"
+    },
+    {
+      "name": "ccreview",
+      "description": "Merge-time review gate for Claude Code: perspective reviewers, declared command gates and a bounded auto-fix loop run as a Workflow, with the fix agent held to a per-run allowlist by a PreToolUse hook. Returns a verdict and a comment draft; never posts or merges.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/LevNas/ccreview.git",
+        "ref": "main"
+      },
+      "homepage": "https://github.com/LevNas/ccreview"
     }
   ]
 }
