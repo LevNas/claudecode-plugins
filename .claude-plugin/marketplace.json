@@ -28,7 +28,7 @@
     },
     {
       "name": "ccevolve",
-      "description": "Self-improving workflow for Claude Code. Enforces Knowledge-First Flow, detects recurring errors, and manages domain-specific rules.",
+      "description": "Self-improving workflow for Claude Code. Records tool failures, permission prompts and advisor calls in a ledger, proposes promoting recurring ones to computed checks, and manages domain-specific rules in .claude/rules/.",
       "source": {
         "source": "url",
         "url": "https://github.com/LevNas/ccevolve.git",
